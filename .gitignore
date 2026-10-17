@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+#
+.streamlit
+
 # Distribution / packaging
 .Python
 build/
@@ -218,3 +221,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+.env
+google-service-account*.json
+__pycache__/
