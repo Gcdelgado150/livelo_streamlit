@@ -2,12 +2,19 @@
 __pycache__/
 *.py[codz]
 *$py.class
+.streamlit/*
+!.streamlit/
+!.streamlit/secrets.toml.example
+secrets.toml
+client_secret*.json
+*service-account*.json
+*service_account*.json
+streamlit-*.json
 
 # C extensions
 *.so
 
 #
-.streamlit
 
 # Distribution / packaging
 .Python
